@@ -37,4 +37,7 @@ public:
 		}
 
 		cout << "\nThe popped element is : " << stack_array[top] << endl; //step 3
-		
+		top--; //step 3 decrement
+	}
+
+	
