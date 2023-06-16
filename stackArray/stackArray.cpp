@@ -22,3 +22,5 @@ public:
 			return;
 		}
 
+		top++; //step 2
+		
