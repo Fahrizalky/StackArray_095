@@ -12,3 +12,13 @@ public:
 	StackArray() {
 		top = -1;
 	}
+
+	void push() {
+		int element;
+		cout << "enter the element : ";
+		cin >> element;
+		if (top == 4) { //step 1
+			cout << "Number of data excedeed the list." << endl;
+			return;
+		}
+
