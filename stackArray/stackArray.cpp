@@ -79,4 +79,10 @@ int main() {
 				cout << "\nStack is empty." << endl;
 				break;
 			}
-			
+			obj.pop();
+			break;
+		case '3':
+			obj.display();
+			break;
+		
+
